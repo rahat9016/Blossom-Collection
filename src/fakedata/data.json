@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "_id":"YMP1849SEIDF21",
+            "image":"https://i.ibb.co/8zwMpNG/blue-check-panjabi-font.jpg",
+            "titile":"Blue check Panjabi",
+            "type":"Mens Wear",
+            "price":"1995",
+            "availableSizes":["X", "XL","XXL"]
+        },
+        {
+            "_id":"YMP1849SEIDF20",
+            "image":"https://i.ibb.co/5KdsFcz/green-check-panjabi-font.jpg",
+            "titile":"Green check Panjabi",
+            "type":"Mens Wear",
+            "price":"2300",
+            "availableSizes":["X", "XL","XXL"]
+        },
+        {
+            "_id":"YMP1849SEIDF19",
+            "image":"https://i.ibb.co/x3M1d58/white-panjabi-font.jpg",
+            "titile":"White Panjabi",
+            "type":"Mens Wear",
+            "price":"2000",
+            "availableSizes":["X", "XL","XXL"]
+        }
+    ]
+}
