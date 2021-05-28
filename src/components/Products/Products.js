@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
-import Product from './Product'
-import data from '../../fakedata/data.json'
+import React from 'react';
+import Product from './Product';
 import './productCompnent.css'
-const Products = () => {
-    const [{products}] = useState(data)
-    console.log(products);
+const Products = ({products}) => {
     return (
         <div className="products-container">
             {
