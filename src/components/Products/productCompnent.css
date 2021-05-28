@@ -1,10 +1,22 @@
+.main-container{
+    display: flex;
+    width: 100%;
+}
+.cart-container{
+    width: 20%;
+    text-align: center;
+}
+
 /* <!---------- products CSS ----------> */
 .products-container{
+    width: 80%;
+}
+.products-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    height: fit-content;
     grid-gap: 50px;
-    display: flex;
-    justify-content: center;
+    margin: 20px;
 }
 
 

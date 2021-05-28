@@ -1,0 +1,13 @@
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+.filter-sort,.filter-size{
+    display: flex;
+    align-items: center;
+}
+.select-box{
+    margin-left: 20px;
+}

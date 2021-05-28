@@ -6,7 +6,7 @@
             "title":"Blue check Panjabi",
             "type":"Mens Wear",
             "price":"1995",
-            "availableSizes":["M", "X", "XL","XXL","XXXL"]
+            "availableSizes":["M","ALL"]
         },
         {
             "_id":"YMP1849SEIDF20",
@@ -14,7 +14,7 @@
             "title":"Green check Panjabi",
             "type":"Mens Wear",
             "price":"2300",
-            "availableSizes":["M", "X", "XL","XXL","XXXL"]
+            "availableSizes":["X","ALL"]
         },
         {
             "_id":"YMP1849SEIDF19",
@@ -22,7 +22,23 @@
             "title":"White Panjabi",
             "type":"Mens Wear",
             "price":"2000",
-            "availableSizes":["M", "X", "XL","XXL","XXXL"]
+            "availableSizes":["XL", "ALL"]
+        },
+        {
+            "_id":"YMP1849SEIDF18",
+            "image":"https://i.ibb.co/jfH58Pq/women-3piss.jpg",
+            "title":"Women three pis",
+            "type":"Women Wear",
+            "price":"1500",
+            "availableSizes":["XXL","ALL"]
+        },
+        {
+            "_id":"YMP1849SEIDF17",
+            "image":"https://i.ibb.co/Jz2HgqX/women-pant.jpg",
+            "title":"Girl Skin Pant",
+            "type":"Women Wear",
+            "price":"150",
+            "availableSizes":["M","X","XXL","XXXL","ALL"]
         }
     ]
 }

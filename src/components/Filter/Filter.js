@@ -1,25 +1,28 @@
 import React from 'react';
-
-const Filter = ({products}) => {
-    
+import './filter.css'
+const Filter = (props) => {
+    // console.log(props);
+    const {products, sortProducts,sizeProducts} = props.products
+    console.log(products.size);
     return (
-        <div>
+        <div className="filter-container">
             <div className="filter-result">
-                <h3>{products.length} Products</h3>
+                <h3>{products.products.length} Products</h3>
             </div>
             <div className="filter-sort">
                 <h3>Order</h3>
-                <select>
-                    <option>Latest</option>
+                <select className="select-box" value={products.sort}onChange={sortProducts}>
+                    <option value="latest">Latest</option>
                     <option value="lowest">Lowest</option>
                     <option value="highest">Highest</option>
                 </select>
             </div>
             <div className="filter-size">
                 <h3>Size</h3>
-                <select>
-                    <option value="ALL">ALL</option>
+                <select className="select-box"  value={products.size} onChange={sizeProducts}>
+                    <option>ALL</option>
                     <option value="M">M</option>
+                    <option value="L">L</option>
                     <option value="X">X</option>
                     <option value="XL">XL</option>
                     <option value="XXL">XXL</option>

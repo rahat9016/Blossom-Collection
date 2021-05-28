@@ -10,7 +10,6 @@ const Product = ({data}) => {
             <p>{title}</p>
             <p>{formatCurrency(Number(price))}</p>
             <button>Add to cart</button>
-            
         </div>
     );
 };
