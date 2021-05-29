@@ -3,7 +3,7 @@ import './filter.css'
 const Filter = (props) => {
     // console.log(props);
     const {products, sortProducts,sizeProducts} = props.products
-    console.log(products.size);
+    
     return (
         <div className="filter-container">
             <div className="filter-result">

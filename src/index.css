@@ -13,3 +13,7 @@ body, #root{
 }
 
 
+.cart-wrapper{
+  position: sticky;
+  top: 0;
+}
