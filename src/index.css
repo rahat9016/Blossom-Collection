@@ -11,9 +11,3 @@ body, #root{
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
 }
-
-
-.cart-wrapper{
-  position: sticky;
-  top: 0;
-}

@@ -1,0 +1,16 @@
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(60, 60, 251);
+}
+
+.logo{
+  width: 60px;
+}
+
+.cart-items{
+  display: flex;
+}
