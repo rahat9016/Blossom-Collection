@@ -29,6 +29,51 @@ const INITIAL_STATE = {
       image:
         "https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1374&q=80",
     },
+    {
+      id: 4,
+      title: "LOOK by crewcuts Girls' Ponte Pant",
+      description:
+        "75% Polyester, 21% Viscose, 4% Elastan e Imported Machine Wash Rule recess in these super comfy Ponte knit pants that pair well with any top for a fun look",
+      price: 150.0,
+      image:
+        "https://i.ibb.co/ZdCFZ4t/women-skirt.jpg",
+    },
+    {
+      id: 5,
+      title: "White Embroidered Cotton Panjabi",
+      description:
+        "75% Polyester, 21% Viscose, 4% Elastan e Imported Machine Wash Rule recess in these super comfy Ponte knit pants that pair well with any top for a fun look",
+      price: 150.0,
+      image:
+        "https://i.ibb.co/x3M1d58/white-panjabi-font.jpg",
+    },
+    {
+      id: 6,
+      title: "Lucky Brand Girls' Graphic Tee",
+      description:
+        "Perfect for any occasion whether it's playing at the beach, sunning by a pool, our simple every day wear you can be sure that your child will be comfortable wearing, as well as always being fashionable",
+      price: 120.0,
+      image:
+        "https://images-na.ssl-images-amazon.com/images/I/61MTfxayhJL._AC_UX522_.jpg",
+    },
+    {
+      id: 7,
+      title: "Calvin Klein Big Girls' Performance Crop Top Tee Shirt",
+      description:
+        "Features Calvin Klein Performance tees and tank are offered in various styles, solids and or prints for your workout or everyday wear. This Girls Performance short sleeve crop top tee-shirt features small hole mesh, screenprint logo on front & back hem",
+      price: 450.0,
+      image:
+        "https://images-na.ssl-images-amazon.com/images/I/91PWBBZjv2L._AC_UX466_.jpg",
+    },
+    {
+      id: 8,
+      title: "The Children's Place Baby Girls' Skinny Jeans",
+      description:
+        "Made of 80% cotton/18% polyester/2% spandex denim in our Blues wash. Specially treated for soft feel and hand-sanding for cool, lived-in look",
+      price: 450.0,
+      image:
+        "https://images-na.ssl-images-amazon.com/images/I/716XqHi3pSL._AC_UX569_.jpg",
+    },
   ],
   cart: [],
   currentItem: null,

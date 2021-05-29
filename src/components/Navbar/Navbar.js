@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from '../../images/blossom-collection-logo.png'
+import logo from "../../images/blossom-collection-logo.png";
 import { connect } from "react-redux";
-import './navbar.css'
+import "./navbar.css";
 const Navbar = ({ cart }) => {
   const [cartCount, setCartCount] = useState(0);
 
@@ -17,20 +17,20 @@ const Navbar = ({ cart }) => {
 
   return (
     <div className="navbar-container">
-      <Link to="/">
-          <img src={logo} className="logo"/>
-      </Link>
-      <Link to="/cart">
-        <div className="cart-items">
-          <h3>Cart</h3>
-          <img
-            
-            src="https://image.flaticon.com/icons/svg/102/102276.svg"
-            alt="shopping cart"
-          />
-          <div>{cartCount}</div>
+      <div className="navbar-wrapper">
+        <div>
+          <Link to="/">
+            <img src={logo} className="logo" />
+          </Link>
         </div>
-      </Link>
+
+        <div>
+          <Link to="/cart" className="cart-items">
+            <i class="fas fa-shopping-cart"></i>
+            <h4 className="cartCount">{cartCount}</h4>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
