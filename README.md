@@ -5,4 +5,5 @@
 [--Install Techknowlogy--]
 
 # React.js
+# Redux 
 
