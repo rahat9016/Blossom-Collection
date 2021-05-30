@@ -13,9 +13,9 @@ const Product = ({ product, addToCart, loadCurrentItem }) => {
     <div className="product-wrapper">
       <img src={product.image} alt={product.title} className="product-image"/>
       <div >
-        <p>{product.title}</p>
-        <p >{product.description}</p>
-        <p >$ {product.price}</p>
+        <p className="product-title">{product.title}</p>
+        <p className="product-description">{product.description}</p>
+        <p >${product.price}</p>
       </div>
 
       <div>

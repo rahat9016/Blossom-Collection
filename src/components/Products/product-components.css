@@ -14,7 +14,13 @@
   height: 300px;
   border-radius: 3px;
 }
-
+.product-title{
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+}
+.product-description{
+  color:rgb(63, 63, 63)
+}
 .view-item{
   padding: 10px 20px;
   color: white;
