@@ -1,5 +1,5 @@
 ### [Blossom Collection is a online shop]
-### Team 90
+# Team 90
 # Summery:-
 An e-commerce website, by definition, is a website that allows you to buy and sell tangible goods, digital products or services online.for the project Using React.JS for UI design and Redux using for state management. 
 
