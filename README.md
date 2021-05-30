@@ -25,6 +25,6 @@ Team Member:-
 	Developer : Minhajur Rohoman ( state management  )
 	Developer : Muhammad Al Muttaqi ( UI, design and Responsive )
 
-Live Project Link: https://blossom-collection-90.web.app/
-Github Code Link: https://github.com/rahat9016/Blossom-Collection
+### Live Project Link: https://blossom-collection-90.web.app/
+### Github Code Link: https://github.com/rahat9016/Blossom-Collection
 
